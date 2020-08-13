@@ -35,10 +35,12 @@ function Contact(){
               </div>
               <div className="words">
                 Have any more questions or want to know more? Please feel free to contact me
+                
               </div>
 
         
           </div>
+          
           <div className="form"> 
             <form action="#">
             <div className="form-group">

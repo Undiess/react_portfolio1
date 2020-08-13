@@ -116,11 +116,11 @@
 
 }
 .form{
-  padding-left: 90px;
-  padding-right: 90px;
+
   padding-top: 50px;
   padding-bottom: 20px;
-
+ width: 50%;
+ margin: auto;
 }
 
 .portfoliorow{ 
@@ -184,4 +184,15 @@ border-bottom-style: solid;
   margin-top: 20%;
   color: white;
   margin-left: 20%;
+}
+
+.tw-ic{
+  margin-right: 45%;
+}
+.gitlogo{
+  width: 5%;
+}
+
+.footertext{
+  float: right;
 }

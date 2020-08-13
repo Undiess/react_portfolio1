@@ -1,5 +1,6 @@
 import React from 'react';
-
+import github from "../assets/github.png"
+import linked from "../assets/linked.png"
 function Footer(){
 
     return( 
@@ -11,17 +12,17 @@ function Footer(){
                 <div className="mb-5 flex-center">
 
                   
-                  <a href="https://www.facebook.com/Andiess/" target="_blank" rel="noopener noreferrer" className="fb-ic">
-                    <i className="fab fa-facebook-f fa-lg orange-text mr-md-5 mr-3 fa-2x"></i>
-                  </a>
                   
                   <a href="https://github.com/Undiess" target="_blank" rel="noopener noreferrer" className="tw-ic">
-                    <i className="fab fa-github fa-lg orange-text mr-md-5 mr-3 fa-2x"> </i>
+                    <img className= "gitlogo"src={github}></img>
                   </a>
                  
                   <a href="https://www.linkedin.com/in/andy-nguyen-4422011a4/" target="_blank" rel="noopener noreferrer" className="li-ic">
-                    <i className="fab fa-linkedin-in fa-lg orange-text mr-md-5 mr-3 fa-2x"> </i>
+                  <img className= "gitlogo"src={linked}></img>
                   </a>
+
+                  
+
                 </div>
               </div>
             </div>
